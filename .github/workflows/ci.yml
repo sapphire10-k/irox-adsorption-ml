@@ -46,6 +46,6 @@ jobs:
       - name: Check README is in sync with the committed results
         run: |
           cp README.md /tmp/README.committed.md
-          python src/build_readme.py --out README.md
+          python -m src.build_readme --out README.md
           diff -u /tmp/README.committed.md README.md \
             || { echo "::error::README.md is stale. Run 'python src/build_readme.py' and commit the result."; exit 1; }
