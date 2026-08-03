@@ -1,0 +1,27 @@
+| feature | definition | units |
+| --- | --- | --- |
+| `n_adsorbates` | Number of adsorbed H atoms, from the pre-relaxation geometry | count |
+| `is_2H` | 1 for two-adsorbate configurations, 0 otherwise; indicator for the pair block | 0/1 |
+| `n_water` | Co-adsorbed water molecules, i.e. oxygens carrying H but bonded to no Ir; their hydrogens are excluded from n_adsorbates | count |
+| `n_atoms` | Total atoms in the configuration | count |
+| `cn_mean` | Mean Ir-O coordination number of the binding oxygen(s), cutoff 2.6 A | count |
+| `cn_min` | Minimum coordination number across binding oxygens | count |
+| `cn_max` | Maximum coordination number across binding oxygens | count |
+| `gcn_mean` | Mean generalised coordination number, sum_j CN(j)/6 (Calle-Vallejo) | dimensionless |
+| `gcn_min` | Minimum generalised coordination number across binding oxygens | dimensionless |
+| `gcn_max` | Maximum generalised coordination number across binding oxygens | dimensionless |
+| `n_bridge_sites` | Binding oxygens with Ir coordination 2 (bridging) | count |
+| `n_3f_sites` | Binding oxygens with Ir coordination 3 (three-fold) | count |
+| `d_OH_mean_A` | Mean H to binding-oxygen distance in the built geometry | angstrom |
+| `nn1_dist_A` | Mean distance from binding oxygen to its 1st nearest heavy atom | angstrom |
+| `nn2_dist_A` | Mean distance from binding oxygen to its 2nd nearest heavy atom | angstrom |
+| `nn3_dist_A` | Mean distance from binding oxygen to its 3rd nearest heavy atom | angstrom |
+| `frac_Ir_in_shell` | Fraction of atoms within 2.6 A of the binding oxygen that are Ir | fraction |
+| `z_site_A` | Mean z coordinate of the binding oxygen(s) | angstrom |
+| `z_below_top_A` | Depth of the binding oxygen below the topmost slab atom | angstrom |
+| `lateral_margin_A` | Distance from the binding site to the nearest lateral edge of the non-periodic slab; low values mean coordination is truncated by the finite cell | angstrom |
+| `pair_separation_A` | Distance between the two binding oxygens (2H only, else 0) | angstrom |
+| `pair_hh_separation_A` | Distance between the two H atoms (2H only, else 0) | angstrom |
+| `pair_cos_theta_z` | Cosine of the angle between the O-O pair vector and the surface normal (2H only, else 0) | dimensionless |
+| `pair_inplane_angle_deg` | In-plane angle of the O-O pair vector from the x axis (2H only, else 0) | degrees |
+| `pair_same_row` | 1 if the pair vector lies along a lateral axis, i.e. same bridging-oxygen row (2H only, else 0) | 0/1 |
