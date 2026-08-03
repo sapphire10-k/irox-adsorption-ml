@@ -1,0 +1,9 @@
+{
+  "E_H2_eV": -22.4,
+  "E_ref_H_eV": -11.2,
+  "method": "GFN2-xTB",
+  "fmax_target": 0.05,
+  "fmax_final": 0.004,
+  "converged": true,
+  "note": "FIXTURE VALUE -- not a real calculation"
+}

@@ -1,0 +1,16 @@
+{
+  "E_H2_eV": -26.740247018067514,
+  "E_ref_H_eV": -13.370123509033757,
+  "method": "GFN2-xTB",
+  "fmax_target": 0.05,
+  "fmax_final": 0.01747038191786903,
+  "converged": true,
+  "n_steps": 2,
+  "cell_a_A": 20.0,
+  "hh_distance_A": 0.776030272551802,
+  "initial_hh_distance_A": 0.74,
+  "pbc": false,
+  "seed": 0,
+  "ase_version": "3.27.0",
+  "python": "3.13.9"
+}
