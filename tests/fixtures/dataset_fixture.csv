@@ -1,0 +1,12 @@
+config_id,site_id,site_intended,site_relabelled,coverage,n_adsorbates,method,energy_eV,converged,triage_bin,triage_reason,status,in_triage,role,config_hash,fmax_final,n_runs_found,energy_source,geometry_path,provenance
+slab_H_o20_ready,o20,o20,False,1H,1,xTB,-10387.218479,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o20_ready.traj,run=/fixture/slab_H_o20_ready
+slab_H_o23_ready,o23,o23,False,1H,1,xTB,-10387.305381,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o23_ready.traj,run=/fixture/slab_H_o23_ready
+slab_H_o26_ready,o26,o26,False,1H,1,xTB,-10387.599799,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o26_ready.traj,run=/fixture/slab_H_o26_ready
+slab_H_o29_ready,o29,o29,False,1H,1,xTB,-10387.450097,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o29_ready.traj,run=/fixture/slab_H_o29_ready
+slab_H_o32_ready,o32,o32,False,1H,1,xTB,-10387.020058,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o32_ready.traj,run=/fixture/slab_H_o32_ready
+slab_H_o35_ready,o35,o35,False,1H,1,xTB,-10386.854742,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o35_ready.traj,run=/fixture/slab_H_o35_ready
+slab_H_o38_ready,o38,o38,False,1H,1,xTB,-10387.22949,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o38_ready.traj,run=/fixture/slab_H_o38_ready
+slab_H_o41_ready,o41,o41,False,1H,1,xTB,-10387.065802,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o41_ready.traj,run=/fixture/slab_H_o41_ready
+slab_H_o44_ready,o44,o44,False,1H,1,xTB,-10387.111553,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o44_ready.traj,run=/fixture/slab_H_o44_ready
+slab_H_o47_ready,o47,o47,False,1H,1,xTB,-10386.821743,True,OK,converged at intended site,RUN,True,train,fixture00hash,0.045,1,triage_job_dir,/fixture/slab_H_o47_ready.traj,run=/fixture/slab_H_o47_ready
+slab_clean_ready_r1,clean,clean,False,clean,0,xTB,-10375.723335,True,NOT_TRIAGED,,RUN,False,reference,,0.0356,1,sole_run,/fixture/clean.traj,run=/fixture/clean

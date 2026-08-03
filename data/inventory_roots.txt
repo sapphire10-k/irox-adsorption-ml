@@ -1,0 +1,24 @@
+# Output roots searched by src/inventory.py, one per line.
+#
+# NOTE: the IrOx_VQE git clone itself contains NO results. Its .gitignore
+# excludes outputs/, and CI results are published as downloadable artefacts.
+# These are the locations on this machine where those artefacts were unpacked.
+
+# Includes batch_centerO20/pairs (the 17 two-adsorbate configurations),
+# which now lives under IrO2_Simulation_Data.
+/Users/manishamalhotra/Documents/IrO2_Simulation_Data
+/Users/manishamalhotra/Iridium_Oxide_ASE.ipynb
+/Users/manishamalhotra/Downloads/opt-clean-ref
+
+# Unpacked CI artefacts (repeated downloads of the same workflow)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(2)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(3)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(4)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(6)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(7)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(8)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(9)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(10)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(11)
+/Users/manishamalhotra/Downloads/irO2-simulation-outputs(12)
