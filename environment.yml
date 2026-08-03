@@ -1,0 +1,13 @@
+name: irox-adsorption-ml
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11.9
+  - ase=3.23.0
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.5.1
+  - matplotlib=3.9.1
+  - pytest=8.3.2
+  - openpyxl=3.1.5   # reading the orbital manifest spreadsheet (selection_note)

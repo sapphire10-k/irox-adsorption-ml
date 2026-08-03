@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Environments
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# NOTE: data/*.csv is deliberately NOT ignored. Generated datasets are tracked
+# so that every number in the README is traceable to a committed artefact.
+
+# Model evaluation outputs are script-generated and tracked.
+!results/
