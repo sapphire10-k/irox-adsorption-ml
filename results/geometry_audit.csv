@@ -1,0 +1,3 @@
+structure,source,detail,n_Ir,n_O,O_per_Ir,ir_o_shortest_A,ir_o_shell_spread_A,o_o_shortest_A,n_oo_pairs_below_2A,oo_implausible_threshold_A,seed
+reference_rutile_IrO2,ase.spacegroup.crystal,"a=4.4983, c=3.1544, u=0.3058",2,4,2.0,1.9453640901190812,0.05808504589631536,2.4708286873847314,0,2.0,0
+slab_clean_ready,built_input,/Users/manishamalhotra/Documents/IrO2_Simulation_Data/generated-states-for-pseudopotential/clean/structures/slab_clean_ready.traj,32,64,2.0,2.401946235129384,8.623570302290773e-09,1.5174619284999995,48,2.0,0
