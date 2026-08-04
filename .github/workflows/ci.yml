@@ -10,6 +10,8 @@ jobs:
   test:
     name: pytest (bundled fixtures only)
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
       - uses: actions/checkout@v4
